@@ -4,6 +4,7 @@ def write_to_file():
     with open('data.txt', 'w') as file:
         file.write("Hello, this is a test file.\n")
         file.write("This file contains some simple data.")
+        file.write("This file contains some simple data. in Person2")
 
 if __name__ == "__main__":
     write_to_file()
