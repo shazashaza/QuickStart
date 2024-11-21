@@ -5,7 +5,9 @@ def read_from_file():
         with open('data.txt', 'r') as file:
             content = file.read()
             print("File content:")
+            
             print(content)
+            print("Changes from dev2")
     except FileNotFoundError:
         print("The file does not exist.")
 
