@@ -5,7 +5,7 @@ def write_to_file():
         file.write("Hello, this is a test file.\n")
         file.write("This file contains some simple data.")
         file.write("This file contains some simple data. in Person2")
-
+        file.write("Change from dev3")
 if __name__ == "__main__":
     write_to_file()
     print("Data has been written to the file.")
